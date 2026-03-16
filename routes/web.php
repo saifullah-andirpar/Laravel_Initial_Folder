@@ -24,6 +24,10 @@ require __DIR__.'/settings.php';
 //     return students::all();
 // });
 
+Route::get('teachers',function(){
+    return students::all();
+});
+
 
 
 
