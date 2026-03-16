@@ -28,4 +28,3 @@ require __DIR__.'/settings.php';
 
 
 // Route::get('teachers', [StudentsController::class,'index']);
-Route::get('teachers',[StudentsController::class,'index']);
